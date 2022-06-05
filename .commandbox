@@ -1,0 +1,21 @@
+conda create -n WPC-Project2 python=3.9.12
+wait
+conda activate WPC-Project2
+wait
+conda install matplotlib
+wait
+conda install numpy
+wait
+conda install pandas
+wait
+conda install scikit-learn
+wait
+pip3 install --upgrade tensorflow-gpu
+wait
+pip3 install keras
+echo "Program is finished"
+
+
+#cat ~/.zshrc | grep __conda_setup -A 10 > auto-env-setup.sh
+#cat .commandbox >> auto-env-setup.sh
+
