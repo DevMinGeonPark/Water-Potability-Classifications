@@ -4,6 +4,8 @@ conda activate WPC-Project2
 wait
 conda install matplotlib
 wait
+conda install jupyuter
+wait
 conda install numpy
 wait
 conda install pandas
